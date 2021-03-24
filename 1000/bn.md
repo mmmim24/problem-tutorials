@@ -26,6 +26,22 @@ int main() {
   return 0;
 }
 ```
+### C++
+-----
+```cpp
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+  int a,b,t;
+  cin>>t;
+  int x=t;
+  while(t--){
+    cin>>a>>b;
+    cout<<"Case "<<x-t<<": "<<a+b<<endl;
+  }
+  return 0;
+}
+```
 
 ### Java
 -----
